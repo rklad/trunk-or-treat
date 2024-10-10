@@ -1,0 +1,13 @@
+body {
+    background-color: #5d2157;
+}
+.navbg {
+    background-color: #4b1b46;
+}
+
+.navtext {
+    color:orange;
+    font-family: "Creepster", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
