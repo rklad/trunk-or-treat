@@ -10,4 +10,62 @@ body {
     font-family: "Creepster", system-ui;
   font-weight: 400;
   font-style: normal;
+  font-size:30px;
+}
+
+.navtext:hover {
+    color:rgb(255, 205, 111);
+}
+
+.burger {
+    background-color: orange;
+}
+
+.pumpkinnav {
+    width:150px;
+    height:150px;
+}
+
+.landingtext {
+    font-family: "Creepster", system-ui;
+    font-size:65px;
+    font-weight: 400;
+  font-style: normal;
+}
+
+ul.homescreen {
+    list-style-type: none;
+}
+
+.listtext {
+    font-family: "Creepster", system-ui;
+    font-size:35px;
+    font-weight: 400;
+  font-style: normal; 
+}
+
+.subtext {
+    font-family: "Creepster", system-ui;
+    font-size:23px;
+    font-weight: 400;
+  font-style: normal;
+}
+
+.btntext {
+    font-family: "Creepster", system-ui;
+    font-size:35px;
+    font-weight: 400;
+  font-style: normal; 
+}
+
+.more-info {
+    background-color: #4b1b46;
+    border: orange solid 5px;
+    border-radius: 5px 5px 5px 5px
+}
+
+.more-info:hover {
+    background-color: orange;
+    border: white solid 5px;
+    border-radius: 5px 5px 5px 5px
 }
