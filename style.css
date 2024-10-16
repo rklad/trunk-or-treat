@@ -33,6 +33,13 @@ body {
   font-style: normal;
 }
 
+.landingtext1 {
+    font-family: "Creepster", system-ui;
+    font-size:20px;
+    font-weight: 400;
+  font-style: normal; 
+}
+
 ul.homescreen {
     list-style-type: none;
 }
@@ -67,5 +74,13 @@ ul.homescreen {
 .more-info:hover {
     background-color: orange;
     border: white solid 5px;
-    border-radius: 5px 5px 5px 5px
+    border-radius: 5px 5px 5px 5px;
 }
+
+.trunkimg {
+    width:450px;
+    height:600px;
+    border: 10px solid orange;
+    border-radius: 10px 10px 10px 10px;
+}
+
