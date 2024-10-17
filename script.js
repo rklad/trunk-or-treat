@@ -7,6 +7,22 @@ $(document).ready(function() {
         } else {
             $('.btntext').text("Less Info");
         }
-        $('.hidetext').toggle()
+        $('.hidetext').slideToggle()
     })
+
+    $('.description').hide()
+
+    $('.showcase').on('mouseenter', function() {
+        $(this).find('.description').fadeIn()
+    }).on('mouseleave', function() {
+        $('.description').fadeOut()
+    })
+
+    $('.schedule1').hide()
+
+    $('.schedule').on('click', function(event) {
+        $('.schedule1').not($(event.target).next()).slideUp()
+        $(event.target).next().slideToggle();
+    })
+
 })

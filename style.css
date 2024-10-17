@@ -84,3 +84,32 @@ ul.homescreen {
     border-radius: 10px 10px 10px 10px;
 }
 
+.description {
+  background-color: rgb(255, 165, 0, 0.8);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width:200px;
+  height:100px;
+  font-family: "Creepster", system-ui;
+    font-size:23px;
+    font-weight: 400;
+  font-style: normal;
+  transform: translate(-50%, -50%);
+}
+
+.schedule {
+  background-color: orange;
+  color:white;
+  font-family: "Creepster", system-ui;
+    font-size:35px;
+    font-weight: 400;
+  font-style: normal;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.schedule1 {
+  color:orange;
+  background-color: white;
+  border-radius: 5px 5px 5px 5px;
+}
